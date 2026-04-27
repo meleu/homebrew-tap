@@ -4,22 +4,22 @@ cask "zzgo" do
 
   on_macos do
     on_intel do
-      sha256 "23fef7ef339123f027c836ee812dd22253d1708fadba88f0dea74a97e1944348"
+      sha256 "4d7d90f8405aa8d0d2900dc1b78edfe112bc412a454de58ef9b4466b5883fa21"
       url "https://github.com/meleu/zzgo/releases/download/v#{version}/zzgo_#{version}_darwin_amd64.tar.gz"
     end
     on_arm do
-      sha256 "4ab741cd72a026c7c331aaaea2b0516b39b598e9cc80263ce59772d022f32ec7"
+      sha256 "0120c199540f48824207a73eedabec1e69ae1d74e46f5470a542f92eed023d87"
       url "https://github.com/meleu/zzgo/releases/download/v#{version}/zzgo_#{version}_darwin_arm64.tar.gz"
     end
   end
 
   on_linux do
     on_intel do
-      sha256 "f373afb70fcd222b8205308c7f0a1300f22c86a90c21c1c31de7c28a213986a3"
+      sha256 "269b7649eb42e80b6a3e72d49b107e4567534006402f4d6807b3dcae119405f5"
       url "https://github.com/meleu/zzgo/releases/download/v#{version}/zzgo_#{version}_linux_amd64.tar.gz"
     end
     on_arm do
-      sha256 "1fc38bc3f5697a739fe6a80fdc41268f6b042dda1d4b56ac6faaf9880b9b9439"
+      sha256 "483d567dba239a1c3f100412267944765011524da18f8bc3889558d8394b1bdc"
       url "https://github.com/meleu/zzgo/releases/download/v#{version}/zzgo_#{version}_linux_arm64.tar.gz"
     end
   end
